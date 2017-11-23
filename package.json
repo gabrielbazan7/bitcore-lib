@@ -1,7 +1,7 @@
 {
-  "name": "bitcore-lib-cash",
+  "name": "bitcore-lib-gold",
   "version": "0.15.1",
-  "description": "A pure and powerful JavaScript Bitcoin Cash library.",
+  "description": "A pure and powerful JavaScript Bitcoin Gold library.",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
