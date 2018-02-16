@@ -4,16 +4,16 @@ var bitcore = module.exports;
 
 // module information
 bitcore.version = 'v' + require('./package.json').version;
-bitcore.versionGuard = function(version) {
+bitcore.versionGuard = function (version) {
   if (version !== undefined) {
-    var message = 'More than one instance of bitcore-lib-gold found. ' +
+    var message = 'More than one instance of bitcore-lib-diamond found. ' +
       'Please make sure to require bitcore-lib and check that submodules do' +
       ' not also include their own bitcore-lib dependency.';
     throw new Error(message);
   }
 };
-bitcore.versionGuard(global._bitcoreGold);
-global._bitcoreGold = bitcore.version;
+bitcore.versionGuard(global._bitcoreDiamond);
+global._bitcoreDiamond = bitcore.version;
 
 // crypto
 bitcore.crypto = {};
