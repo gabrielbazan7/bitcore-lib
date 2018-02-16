@@ -1,7 +1,7 @@
 {
-  "name": "bitcore-lib-gold",
+  "name": "bitcore-lib-diamond",
   "version": "0.15.1",
-  "description": "A pure and powerful JavaScript Bitcoin Gold library.",
+  "description": "A pure and powerful JavaScript Bitcoin Diamond library.",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
